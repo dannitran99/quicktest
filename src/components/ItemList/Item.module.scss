@@ -1,0 +1,49 @@
+.item{
+    width: 80%;
+    margin-top: -2px;
+    padding: 1em 0.5em;
+    border: solid 2px red;
+    background-color: #FFF9F3;
+    display: flex;
+    img{
+        height: 200px;
+        width: 180px;
+        object-fit: cover;
+    }
+    h4{
+        margin: 0;
+        color: red;
+    }
+    h3{
+        margin: 0.5em 0;
+        color: #419D3A;
+    }
+    p{
+        color: gray;
+    }
+    .info-area{
+        display: inline;
+        :first-child{
+            display: inline;
+        }
+        :last-child{
+            color: black;
+            display: inline;
+        }
+    }
+    .info-address{
+        margin-left: 1em;
+        display: inline;
+        :first-child{
+            display: inline;
+        }
+        :last-child{
+            color:darkblue;
+            display: inline;
+        }
+    }
+}
+
+.info{
+    margin-left: 1em;
+}
